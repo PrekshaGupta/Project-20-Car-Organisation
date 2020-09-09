@@ -12,7 +12,7 @@ function setup() {
   speed = random(55,90);
   weight = random(400,1500);
 
-  car.velocityX = 2;
+  car.velocityX = speed;
 }
 
 function draw() {
@@ -31,7 +31,7 @@ function draw() {
    }
 
    if(deformation < 100){
-     car.shapeColor(0,255,0);
+     car.shapeColor = color(0,255,0);
    }
   }
 
