@@ -1,6 +1,5 @@
 var car,wall;
-var bullet,speed,weight;
-var wall,thickness;
+var speed,weight;
 
 
 function setup() {
